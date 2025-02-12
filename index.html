@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Marmeto</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">🔎</div>
+    </header>
+
+    <!-- Cart Container -->
+    <main class="cart-container">
+        <!-- Cart Items Section -->
+        <section class="cart-items">
+            <h2>Your Cart</h2>
+            <div id="cart-list">
+                <!-- Cart items will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Cart Summary Section -->
+        <aside class="cart-summary">
+            <h2>Cart Totals</h2>
+            <div class="summary-content">
+                <p>Subtotal: <span id="subtotal">₹0.00</span></p>
+                <p>Total: <span id="total">₹0.00</span></p>
+                <button id="checkout-btn">Check Out</button>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>🛠️ High Quality</p>
+        <p>🔒 Warranty Protection</p>
+        <p>🚀 Free Shipping</p>
+        <p>24/7 Support</p>
+
+    </footer>
+
+</body>
+</html>
